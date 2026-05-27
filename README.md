@@ -189,6 +189,7 @@ Memory Consumption
 Application Response Time
 Request Count
 Error Rate
+
 🔐 Security Best Practices
 HTTPS Enabled
 IAM Least Privilege
@@ -196,11 +197,13 @@ Secrets Manager Integration
 Security Group Hardening
 Docker Image Scanning
 Dependency Vulnerability Checks
+
 🧪 Testing Strategy
 Unit Tests
 npm test
 Integration Tests
 npm run integration-test
+
 🚀 Future Enhancements
 Kubernetes Deployment (EKS)
 GitOps using ArgoCD
@@ -208,6 +211,17 @@ Blue-Green Deployment
 Canary Release Strategy
 Service Mesh Integration
 Distributed Tracing
+
+
+commands used to run the project locally and in production are included in the respective sections above. Please refer to those sections for detailed instructions.
+1.vim Dockerfile
+2 docker build -t <img-name>
+3. docker run -d -p 27017:27017 --name mongo mongo:latest
+4.docker exec -it (id-docker ps i.e id) bash
+docker run -d -p 5000:5000 --name backend backend:latest 
+
+>
+
 📈 DevOps Learning Outcomes
 
 This project demonstrates:
